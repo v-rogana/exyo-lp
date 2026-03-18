@@ -3,10 +3,10 @@ export default function TheProblem() {
     <section className="relative z-[1] py-24 sm:py-28 lg:py-32 px-6 lg:px-10">
       <div className="max-w-5xl mx-auto text-center">
         <h2
-          className="font-display font-bold text-exyo-white mb-5 reveal d1"
+          className="font-display font-bold text-exyo-cyan mb-5 reveal d1"
           style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.2rem)', lineHeight: 1.2 }}
         >
-          <span className="text-exyo-cyan">O problema</span>
+          O problema
         </h2>
 
         <p className="text-exyo-gray max-w-[640px] mx-auto mb-12 text-base leading-relaxed reveal d2">

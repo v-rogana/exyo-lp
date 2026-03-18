@@ -8,9 +8,8 @@ export default function Efficacy() {
   return (
     <section className="relative z-[1] text-center py-24 sm:py-28 lg:py-32 px-6 lg:px-10">
       <div className="max-w-6xl mx-auto">
-        <div className="section-tag reveal" data-reveal-dim="true">Dados</div>
         <h2
-          className="font-display font-bold text-exyo-white mb-5 reveal d1"
+          className="font-display font-bold text-exyo-cyan mb-5 reveal d1"
           style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.2rem)', lineHeight: 1.2 }}
         >
           Prova de Eficácia

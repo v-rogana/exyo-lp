@@ -11,17 +11,22 @@ export default function Proposal() {
       />
 
       <div className="relative z-10 max-w-5xl mx-auto">
-        <div className="section-tag reveal" data-reveal-dim="true">A Proposta Exyo</div>
+        <h2
+          className="font-display font-bold text-exyo-cyan mb-5 reveal d1"
+          style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.2rem)', lineHeight: 1.2 }}
+        >
+          O cruzamento dos eixos
+        </h2>
 
         <p
-          className="font-display font-normal max-w-[760px] mx-auto leading-[1.65] reveal d1"
-          style={{ fontSize: 'clamp(1.15rem, 3vw, 1.8rem)', color: 'rgba(245,245,247,0.82)' }}
+          className="font-display font-normal max-w-[760px] mx-auto leading-[1.65] reveal d2"
+          style={{ fontSize: 'clamp(1.05rem, 2.5vw, 1.4rem)', color: 'rgba(245,245,247,0.82)' }}
         >
           Nos propomos a ser <span className="text-exyo-cyan font-semibold">o cruzamento dos eixos</span> humano e digital, prática e teoria, ação e reflexão. É onde tudo se encontra, <span className="text-exyo-cyan font-semibold">reverbera</span> e retorna <span className="text-exyo-cyan font-semibold">transformado</span>.
         </p>
 
         {/* Cross axes SVG */}
-        <div className="reveal d2">
+        <div className="reveal d3">
         <svg
           className="mx-auto mt-8 opacity-30"
           width="56" height="56" viewBox="0 0 60 60" fill="none"
