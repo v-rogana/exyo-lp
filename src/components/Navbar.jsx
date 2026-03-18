@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* Desktop CTA */}
         <a
           href="#form-section"
-          className="cta-btn hidden sm:inline-flex"
+          className="cta-btn hidden md:inline-flex"
           style={{ padding: '11px 28px', fontSize: '0.85rem' }}
         >
           Agendar Reunião
@@ -44,7 +44,7 @@ export default function Navbar() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="sm:hidden flex flex-col gap-1.5 p-2"
+          className="md:hidden flex flex-col gap-1.5 p-2"
           aria-label="Menu"
         >
           <span className={`w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
@@ -55,18 +55,21 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`sm:hidden overflow-hidden transition-all duration-300 px-5 ${
-          menuOpen ? 'max-h-20 opacity-100 mt-3' : 'max-h-0 opacity-0'
+        className={`md:hidden overflow-hidden transition-all duration-300 ${
+          menuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         }`}
+        style={{ background: 'rgba(10,10,10,0.98)' }}
       >
-        <a
-          href="#form-section"
-          onClick={() => setMenuOpen(false)}
-          className="cta-btn block text-center w-full"
-          style={{ padding: '12px 26px', fontSize: '0.85rem' }}
-        >
-          Agendar Reunião
-        </a>
+        <div className="px-5 py-6 border-t border-[rgba(112,206,211,0.08)]">
+          <a
+            href="#form-section"
+            onClick={() => setMenuOpen(false)}
+            className="cta-btn block text-center w-full"
+            style={{ padding: '14px 26px', fontSize: '0.9rem' }}
+          >
+            Agendar Reunião
+          </a>
+        </div>
       </div>
     </nav>
   )
