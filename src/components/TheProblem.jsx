@@ -3,7 +3,7 @@ export default function TheProblem() {
     <section className="relative z-[1] py-24 sm:py-28 lg:py-32 px-6 lg:px-10">
       <div className="max-w-5xl mx-auto text-center">
         <h2
-          className="font-display font-bold text-exyo-cyan mb-5 reveal d1"
+          className="font-heading font-semibold text-exyo-cyan mb-5 uppercase tracking-[0.2em] reveal d1"
           style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.2rem)', lineHeight: 1.2 }}
         >
           O problema
@@ -24,7 +24,7 @@ export default function TheProblem() {
             </span>
           </div>
 
-          <div className="max-w-[330px] min-w-0 text-left reveal-right d2">
+          <div className="max-w-[330px] min-w-0 text-center sm:text-left reveal-right d2">
             <p className="text-exyo-gray text-sm sm:text-base leading-relaxed">
               dos psicólogos no Brasil <strong className="text-exyo-white">não atuam exclusivamente</strong> na área da Psicologia.
             </p>

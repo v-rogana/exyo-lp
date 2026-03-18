@@ -12,7 +12,7 @@ export default function Proposal() {
 
       <div className="relative z-10 max-w-5xl mx-auto">
         <h2
-          className="font-display font-bold text-exyo-cyan mb-5 reveal d1"
+          className="font-heading font-semibold text-exyo-cyan mb-5 uppercase tracking-[0.2em] reveal d1"
           style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.2rem)', lineHeight: 1.2 }}
         >
           O cruzamento dos eixos

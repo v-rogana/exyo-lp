@@ -19,6 +19,7 @@ export default {
       fontFamily: {
         'display': ['Sora', 'sans-serif'],
         'body': ['Outfit', 'sans-serif'],
+        'heading': ['Montserrat', 'sans-serif'],
       },
     },
   },
