@@ -6,7 +6,7 @@ export default function TheProblem() {
           className="font-display font-bold text-exyo-white mb-5 reveal d1"
           style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.2rem)', lineHeight: 1.2 }}
         >
-          O Abismo
+          <span className="text-exyo-cyan">O problema</span>
         </h2>
 
         <p className="text-exyo-gray max-w-[640px] mx-auto mb-12 text-base leading-relaxed reveal d2">
@@ -14,18 +14,18 @@ export default function TheProblem() {
         </p>
 
         {/* Big stat */}
-        <div className="flex items-center justify-center gap-8 sm:gap-12 flex-wrap px-4">
+        <div className="flex items-center justify-center gap-6 sm:gap-12 flex-wrap px-2 sm:px-4">
           <div className="reveal-left d1">
             <span
               className="font-display font-extrabold text-exyo-cyan block"
-              style={{ fontSize: 'clamp(5rem, 13vw, 8.5rem)', lineHeight: 1, textShadow: '0 0 50px rgba(112,206,211,0.2)' }}
+              style={{ fontSize: 'clamp(4rem, 13vw, 8.5rem)', lineHeight: 1, textShadow: '0 0 50px rgba(112,206,211,0.2)' }}
             >
               50<span className="text-exyo-white" style={{ fontSize: '0.45em' }}>%</span>
             </span>
           </div>
 
-          <div className="max-w-[330px] text-left reveal-right d2">
-            <p className="text-exyo-gray text-base leading-relaxed break-words">
+          <div className="max-w-[330px] min-w-0 text-left reveal-right d2">
+            <p className="text-exyo-gray text-sm sm:text-base leading-relaxed">
               dos psicólogos no Brasil <strong className="text-exyo-white">não atuam exclusivamente</strong> na área da Psicologia.
             </p>
           </div>

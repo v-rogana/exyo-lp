@@ -2,13 +2,11 @@ import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import NeonConnector from './components/NeonConnector'
-import CurrentScenario from './components/CurrentScenario'
 import TheProblem from './components/TheProblem'
 import UniversityDiagnosis from './components/UniversityDiagnosis'
 import SuccessCases from './components/SuccessCases'
 import Proposal from './components/Proposal'
 import Pillars from './components/Pillars'
-import Future from './components/Future'
 import Efficacy from './components/Efficacy'
 import FormSection from './components/FormSection'
 import Footer from './components/Footer'
@@ -62,19 +60,15 @@ function App() {
       <Navbar />
       <Hero />
       <NeonConnector />
-      <CurrentScenario />
-      <NeonConnector variant="wide" />
       <TheProblem />
-      <NeonConnector />
+      <NeonConnector variant="wide" />
       <UniversityDiagnosis />
-      <NeonConnector variant="wide" />
+      <NeonConnector />
       <SuccessCases />
-      <NeonConnector />
-      <Proposal />
       <NeonConnector variant="wide" />
-      <Pillars />
+      <Proposal />
       <NeonConnector />
-      <Future />
+      <Pillars />
       <NeonConnector variant="wide" />
       <Efficacy />
       <NeonConnector />

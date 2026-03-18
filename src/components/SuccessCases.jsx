@@ -42,8 +42,8 @@ export default function SuccessCases() {
             className="w-10 sm:w-[42px]"
           />
           <p className="text-exyo-white font-display font-medium text-sm sm:text-[0.92rem] text-left">
-            A <span className="text-exyo-cyan font-semibold">IA enquanto paciente</span>, auxiliando o terapeuta,
-            <br className="hidden sm:block" /> não enquanto competidor.
+            A <span className="text-exyo-cyan font-semibold">IA enquanto facilitadora</span> do treino de habilidades do profissional da saúde,
+            <br className="hidden sm:block" /> atuando como paciente simulado.
           </p>
         </div>
       </div>

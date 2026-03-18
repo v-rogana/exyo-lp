@@ -17,7 +17,7 @@ export default function Proposal() {
           className="font-display font-normal max-w-[760px] mx-auto leading-[1.65] reveal d1"
           style={{ fontSize: 'clamp(1.15rem, 3vw, 1.8rem)', color: 'rgba(245,245,247,0.82)' }}
         >
-          E por isso ele se propõe a ser: <span className="text-exyo-cyan font-semibold">O cruzamento dos eixos</span> — entre o humano e o digital, a prática e a teoria, a ação e a reflexão. É onde tudo se encontra, <span className="text-exyo-cyan font-semibold">reverbera</span> e retorna <span className="text-exyo-cyan font-semibold">transformado</span>.
+          Nos propomos a ser <span className="text-exyo-cyan font-semibold">o cruzamento dos eixos</span> humano e digital, prática e teoria, ação e reflexão. É onde tudo se encontra, <span className="text-exyo-cyan font-semibold">reverbera</span> e retorna <span className="text-exyo-cyan font-semibold">transformado</span>.
         </p>
 
         {/* Cross axes SVG */}
